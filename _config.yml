@@ -1,0 +1,61 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Jana Koláříková
+author: Jana Koláříková
+email: jana.kolarikova@pirati.cz
+description: > # this means to ignore newlines until "baseurl:"
+  Webová stránka Jany Koláříkové pro kandidaturu do evropského parlamentu na kandidátce Pirátů.
+  Najdete zde prezentaci jejích stanovisek, názorů a rovněž životopis kandidátky.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.janakolarikova.eu" # the base hostname & protocol for your site, e.g. http://example.com
+keywords: Jana Kolářiková, Jana Rohová, europarlament, piráti, kandidátka, česká republika, eu, parlament
+#twitter_username:
+#github_username:
+facebook_username: piratkakolarikova
+cover_image: /assets/img/design/jh/jh_cover.jpg
+img: /assets/img/jana_rohova1.jpg
+#disqus:
+permalink: /:year/:title:output_ext
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-redirect-from
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  - package.json
+  - package-lock.json
+  - run.sh
+
+
+sass:
+  style: compressed
+  load_paths:
+    - _sass
+    - node_modules
+
+paginate_path: "/stranka/:num/"
+paginate: 5
+excerpt_separator: <!--more-->

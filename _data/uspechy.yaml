@@ -1,0 +1,65 @@
+- title: VZDĚLÁNÍ
+  description: "
+  Jihočeská univerzita v Českých Budějovicích,<br/> <b>Sociální a charitativní práce</b> (2013 – 2016, titul Bc.) <br/></br>
+  College for international co-operation and development, <br/> <b>International co-operation and development</b> (2010 – 2012)<br/><br/>
+  Střední pedagogická škola Prachatice,<br/> <b>Předškolní a mimoškolní pedagogika</b> <br/>(2002 – 2006)
+  "
+  icon: child
+  title2: JAZYKY
+  description2: "
+  <table>
+  <tr><td>Čeština:</td><td>*****</td></tr>
+  <tr><td>Angličtina:</td><td>****<td></tr>
+  <tr><td>Chichewa:</td><td>***<td></tr>
+  <tr><td>Němčina:</td><td>**<td></tr>
+  <tr><td>Portugalština:</td><td>*<td></tr>
+  </table>
+  "
+- title: KURZY A SEMINÁŘE
+  description: "
+    <ul>
+    <li>Pracovník v sociálních službách 
+    <li>Letní škola Harm reduction“.
+    <li>Krizová intervence
+    <li>Development instructor course
+    <li>Masér sportovní a rekondiční
+    <li>Photoshop a correl draw
+    <li>Právní minimum
+    <li>Peer aktivista
+    </ul>
+  "
+  icon: flag
+  title2: ZÁJMY
+  description2: "
+    Lidské zdroje, cestování, politika, četba, kreslení, fotografování, rostlinolékařství.
+
+    <h2 class='timeline-content__title'>OSTATNÍ DOVEDNOSTI</h2>
+    ŘP B, schopnost vést větší tým lidí, motivovat je a posilovat team-spirit, soft skills na dobré úrovni,
+    schopnost prioritizace práce, <br/> adaptabilita, tah na branku, optimismus, kreativita.
+  "
+- title: "Vedoucí personálního odboru<br/> Česká Pirátská strana"
+  icon: building
+  date_str: "od listopadu 2017"
+  description: "
+  Příprava výběrových řízení (příprava assessment center, inzeráty, kompletní výběrová řízení, onboarding), vedení týmu 23 lidí. <br/><br/>Práce s koordinátory v krajích, zadávání úkolů a jejich průběžná kontrola, zaznamenávání plnění úkolů, vzdělávání členské základny, psaní pravidelného pirátského zpravodaje, komunikace se členy, příznivci, lidmi zvenčí, administrativa, zpracovávání rozpočtu.
+  "
+  title2: "Koordinátorka<br/> Česká Pirátská strana "
+  date2_str: "01/2017 – 11/2017"
+  description2: "
+  Plánování akcí v Jihočeském kraji, jejich medializace, psaní tiskových zpráv, spolupráce s koordinátory v jiných krajích a v zahraničí a výpomoc s jejich akcemi.
+  <br/><br/>Zpracovávání krajské administrativy, práce se členy a dobrovolníky, plánování a realizace pirátské kampaně při volbách do Poslanecké sněmovny.
+"
+- title: "Sowjet GMBH (vydavatelská společnost)"
+  icon: building
+  date_str: "2012 - 2015"
+  description: "Externí dopisovatel pro časopis <b>Konoptikum</b> zabývající se konopím. <br/></br>Psaní článků, překlady z AJ do ČJ a zpět."
+  title2: "OS Prevent - Kontaktní pracovník krizového a kontaktního centra"
+  date2_str: "02/2013 - 07/2014"
+  description2: "
+  Kontaktní práce s drogovými uživateli, poskytování konzultací, výměnný program, práce v terénu (streetwork), program pro začleňování klientů do společnosti – spolupráce s lékaři, úřady .
+  "
+- icon: building
+  date_str: "10/2011 - 05/2012, dobrovolnická práce"
+  title: "DAPP Malawi<br/>Education sector leader, development instructor"
+  description: "Komunitní rozvoj, pomoc s nastavením vzdělávacích stardardů v základních školách v okolí Blantyre, spolupráce s African library project, vedení vzdělávacích seminářů pro malawské knihovníky a učitele, fundraising, zpracovávání žádostí od malawských škol (komunikace s ministerstvem školství), administrativa a reporting, publikační činnost. Ve volném čase stavba mateřské školy Chigonjetso (fundraising + vlastní práce)."
+

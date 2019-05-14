@@ -1,0 +1,14 @@
+
+_site
+.sass-cache
+.jekyll-metadata
+.bundle
+node_modules
+
+package-lock.json
+
+Gemfile.lock
+vendor
+
+run.sh
+*.sw[op]

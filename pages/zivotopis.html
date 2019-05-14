@@ -1,0 +1,66 @@
+---
+layout: default
+categories: static-page
+title: "Životopis"
+permalink: "zivotopis/"
+comments: false
+---
+
+<div class="page">
+  <div class="row">
+    <div class="small-12 columns">
+      <h1 class="page__headline timeline-headline">{{ page.title }}</h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="small-12 columns">
+      <div class="timeline">
+        {% assign uspechy = site.data.uspechy  %}
+        {% for uspech in uspechy %}
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <i class="fa fa-{{uspech.icon}}" aria-hidden="true"></i>
+            </div>
+
+            {% assign mod = forloop.index | modulo:2 %}
+
+            <div class="timeline-content {% if  mod == 0 %}timeline-content--right{% endif %}">
+              <div class="timeline-content__desc">
+                <p class="timeline-content__date">{% if uspech.date %}{{ uspech.date | date:"%d. %m. %Y" }}{% else %}{{ uspech.date_str }}{% endif %}</p>
+                <h2 class="timeline-content__title">{{ uspech.title }}</h2>
+                <p>{{ uspech.description }}</p>
+
+                {% if uspech.link %}
+                  {% for odkaz in uspech.link  %}
+                  <div><a class="t-anchor" href="{{ odkaz }}" rel="noopener" target="_blank">Odkaz</a></div>
+                  {% endfor %}
+                {% endif %}
+              </div>
+
+              <div class="timeline-content__media" {% if uspech.title2 or uspech.description2 %}style="display:block"{%endif%}>
+                {% if uspech.img %}
+                  <img class="timeline-image" src="{{uspech.img}}" alt= "{{uspech.title}}"/>
+
+                  {% if uspech.img-attribution %}
+                    <p>
+                      <small class="timeline-image-attr">Foto: {{uspech.img-attribution}}</small>
+                    </p>
+                  {% endif %}
+                {% endif %}
+                {% if uspech.title2 %}
+                    <p class="timeline-content__date">{% if uspech.date2 %}{{ uspech.date2 | date:"%d. %m. %Y" }}{% else %}{{ uspech.date2_str }}{% endif %}</p>
+                    <h2 class="timeline-content__title">{% if uspech.title2 %}{{ uspech.title2 }}{%else%} {% if uspech.title %}&nbsp;{% else %}{%endif%}{%endif%}</h2>
+                    <p>{{ uspech.description2 }}</p>
+                {% endif %}
+                </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      <br/><br/><br/>
+      <a href="/assets/pdf/cv-jana-kolarikova.pdf"><i class="fi-download medium"></i> Životopis v PDF ke stažení zde.</a>
+    </div>
+  </div>
+  
+</div>
